@@ -1,0 +1,83 @@
+<%- include('./partials/header.ejs') %>
+<body>
+    <%- include('./partials/navbar.ejs') %>
+    <div class="container-fluid">
+        <div class="row">
+            <%- include('./partials/side_menu.ejs') %>
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-d-4 py-4">
+                <h1 class="mb-4">Receitas cadastradas:</h1>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+
+                    <!--Botão para criar nova receita-->
+                    <button type="button" class="btn btn-success"style="--bs-btn-padding-y: .75rem; --bs-btn-padding-x: .35rem; --bs-btn-font-size: .75rem;"><i class="fa-solid fa-newspaper"></i>
+                        ADICIONAR NOVA RECEITA</button>
+                  </div>
+
+                  <!-- Lista de intens da receita-->
+                  <div class="pratos">
+                  <ul class="list-group list-group-horizontal">
+
+
+                    <li class="list-group-item"><img src="https://cdn.pixabay.com/photo/2015/10/27/12/19/chopsticks-1008868_1280.jpg" class="img-thumbnail" alt="massas"></li>
+                    <li class="list-group-item">Macarrão com legumes</li>
+
+
+                    <li class="list-group-item"><div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button class="btn btn-primary me-md-2" type="button">Editar<i class="fa-solid fa-pencil"></i></button>
+
+
+                        <button class="btn btn-danger" type="button">Excluir<i class="fa-solid fa-xmark"></i></button>
+
+                      </div></li>
+                  </ul>
+
+                  <p></p>
+
+                  <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item"><img src="https://cdn.pixabay.com/photo/2017/06/18/11/09/barbecue-2415223_960_720.jpg" class="img-thumbnail" alt="carnes"></li>
+
+                    <li class="list-group-item">Carne grelhada</li>
+
+                    <li class="list-group-item"><div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button class="btn btn-primary me-md-2" type="button">Editar<i class="fa-solid fa-pencil"></i></button>
+
+                        <button class="btn btn-danger" type="button">Excluir<i class="fa-solid fa-xmark"></i></button>
+
+                      </div></li>
+                  </ul>
+
+                  <p></p>
+
+                  <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item"><img src="https://cdn.pixabay.com/photo/2016/11/22/19/31/macarons-1850216_640.jpg" class="img-thumbnail" alt="sobremessas"></li>
+
+                    <li class="list-group-item">Macarons francês</li>
+
+                    <li class="list-group-item"><div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button class="btn btn-primary me-md-2" type="button">Editar<i class="fa-solid fa-pencil"></i></button>
+
+                        <button class="btn btn-danger" type="button">Excluir<i class="fa-solid fa-xmark"></i></button>
+
+                      </div></li>
+                  </ul>
+
+                  <p></p>
+
+                  <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item"><img src="https://cdn.pixabay.com/photo/2016/03/27/18/53/drinks-1283608_640.jpg" class="img-thumbnail" alt="bebidas"></li>
+
+                    <li class="list-group-item">Cerveja skull</li>
+
+                    <li class="list-group-item"><div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button class="btn btn-primary me-md-2" type="button">Editar<i class="fa-solid fa-pencil"></i></button>
+
+                        <button class="btn btn-danger" type="button">Excluir<i class="fa-solid fa-xmark"></i></button>
+                      </div></li>
+                  </ul>
+
+                  </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "appetite-admin",
+  "version": "1.0.0",
+  "description": "Sistema web para gerenciamento de receitas e usuarios do app móvel #Appetite#.\r ## Tecnologias utilizadas\r - Node.js\r - Express\r - EJS\r - Bootstrap\r - Exos\r - JavaScript",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "keywords": [],
+  "author": "Júlio Silva",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.9"
+  }
+}
